@@ -19,3 +19,5 @@ const generateReducer = options => {
     return state;
   };
 };
+
+export default generateReducer;
