@@ -1,5 +1,5 @@
 const generateReducer = options => {
-  var { initialState, constants, actionPrefix } = options;
+  const { initialState, constants, actionPrefix } = options;
 
   return (state = initialState, action) => {
     if (!action) return state;
